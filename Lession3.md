@@ -87,6 +87,8 @@
     data.resize(3);      // оставить 3 элемента (лишние удалить)
     data.resize(6);      // добавить элементы со значением по умолчанию
 
+<img class="img" src="https://yastatic.net/s3/education-portal/media/C_4_4ac318ee9f_146cbfc8ee.svg" alt="C">
+
 **Пример с capacity:**
 
     std::vector<int> data = {1, 2};
@@ -94,6 +96,8 @@
     data.push_back(3);   // 3 4
     data.push_back(4);   // 4 4
     data.push_back(5);   // 5 8
+
+<img class="img" src="https://yastatic.net/s3/education-portal/media/C_5_bea6b5948b_0684ef4144.svg" alt="C">
 
 ## Многомерные векторы
 
